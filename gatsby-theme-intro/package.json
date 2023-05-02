@@ -1,7 +1,7 @@
 {
   "name": "@yurb/gatsby-theme-intro",
   "description": "Personal branding theme for developers",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "author": "Wojciech Kocjan <wojciech@kocjan.net>",
   "main": "index.js",
   "dependencies": {
@@ -23,9 +23,7 @@
     "tailwindcss": "^3.2.7"
   },
   "peerDependencies": {
-    "gatsby": "^5.3.3",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "gatsby": "^5.9.0"
   },
   "keywords": [
     "gatsby",
@@ -49,9 +47,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yavurb/gatsby-theme-intro"
+    "url": "git+https://github.com/yavurb/gatsby-theme-intro.git"
   },
   "bugs": {
     "url": "https://github.com/yavurb/gatsby-theme-intro/issues"
-  }
+  },
+  "homepage": "https://github.com/yavurb/gatsby-theme-intro#readme",
+  "devDependencies": {}
 }
