@@ -6,7 +6,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "@yavurb/gatsby-theme-intro",
+      resolve: "@yurb/gatsby-theme-intro",
       options: {
         basePath: "/",
         contentPath: "content/",

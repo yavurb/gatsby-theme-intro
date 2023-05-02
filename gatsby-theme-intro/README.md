@@ -1,6 +1,6 @@
-[![Version](https://img.shields.io/npm/v/@arene/gatsby-theme-intro)](https://www.npmjs.com/package/@arene/gatsby-theme-intro)
-[![Downloads](https://img.shields.io/npm/dt/@arene/gatsby-theme-intro)](https://www.npmjs.com/package/@arene/gatsby-theme-intro)
-![License](https://img.shields.io/npm/l/@arene/gatsby-theme-intro)
+[![Version](https://img.shields.io/npm/v/@yurb/gatsby-theme-intro)](https://www.npmjs.com/package/@yurb/gatsby-theme-intro)
+[![Downloads](https://img.shields.io/npm/dt/@yurb/gatsby-theme-intro)](https://www.npmjs.com/package/@yurb/gatsby-theme-intro)
+![License](https://img.shields.io/npm/l/@yurb/gatsby-theme-intro)
 
 # Intro - Personal branding theme for developers
 
@@ -34,7 +34,7 @@ https://weeby.studio/intro/preview
 mkdir my-site
 cd my-site
 yarn init -2
-yarn add gatsby react react-dom @arene/gatsby-theme-intro
+yarn add gatsby react react-dom @yurb/gatsby-theme-intro
 ```
 
 ### Enable theme
@@ -45,7 +45,7 @@ Then add the theme to your `gatsby-config.js`.
 module.exports = {
   plugins: [
     {
-      resolve: "@arene/gatsby-theme-intro",
+      resolve: "@yurb/gatsby-theme-intro",
       options: {
         theme: "classic",
         darktheme: "dark-blue",
@@ -125,7 +125,7 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "@arene/gatsby-theme-intro",
+      resolve: "@yurb/gatsby-theme-intro",
       options: {
         basePath: "/",
         contentPath: "content/",
@@ -173,7 +173,7 @@ By default, TailwindCSS uses its `"media"` mode for activating dark mode, which 
   ...
   plugins: [
     {
-      resolve: "@arene/gatsby-theme-intro",
+      resolve: "@yurb/gatsby-theme-intro",
       options: {
         ...
         tailwindConfig: {
@@ -196,7 +196,7 @@ You can use Gatsby component shadowing technique to customize the theme.
 
 - All components are located in `src/components` directory.
 - All parameters accepted by components are defined using [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html). You can find types definitions in one centeral `src/types` location.
-- Code you want to overwrite should be placed within `src/@arene/gatsby-theme-intro/` directory.
+- Code you want to overwrite should be placed within `src/@yurb/gatsby-theme-intro/` directory.
 - *Important* In order to use TailwindCSS classes in your new files, they must be be listed in the the `content` field of `tailwindConfig`, as in the [example above](#dark-mode).
 
 Please refer to [the official documentation](https://www.gatsbyjs.org/docs/themes/shadowing/) to learn more.
@@ -213,7 +213,7 @@ module.exports = {
   (...)
   plugins: [
     {
-      resolve: "@arene/gatsby-theme-intro",
+      resolve: "@yurb/gatsby-theme-intro",
       options: {
         (...)
         theme: {
